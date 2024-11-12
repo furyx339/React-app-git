@@ -27,19 +27,19 @@ const HomeSection = () => (
               <p class="text-gray-600">ID: 123456</p>
             </div>
             <div class="mb-4">
-              <p class="text-gray-700"><strong>Email:</strong> ahad.shikder.anto@gmail.com</p>
-              <p class="text-gray-700"><strong>Phone:</strong> 01615888102</p>
+              <p class="text-gray-700"><strong>Height:</strong> 6"</p>
+              <p class="text-gray-700"><strong>Weight:</strong> 75KG</p>
             </div>
             <div class="mb-4">
-              <p class="text-gray-700"><strong>Address:</strong> E-1, Zakir Hossain Road, Dhaka</p>
+              <p class="text-gray-700"><strong>Hobby:</strong> Gaming,Movies,Travelling</p>
             </div>
             <div class="flex justify-end">
-              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Contact</button>
+              {/* <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Contact</button> */}
             </div>
           </div>
         </div>
         <div class="right w-full md:w-2/3 mx-6 mt-6 md:mt-0">
-          <p class="text-lg text-black font-bold">"M.A. Ahad Shikder is a 24-year-old software engineer intern from Springfield, Illinois..."</p>
+          <p class="text-lg text-black font-bold">M.A. Ahad Shikder is a 24-year-old software engineer intern in Polygon Technology from Mohammadpur, Dhaka. Completed bsc in CSE from Brac university with CGPA 3.34 . Passed HSC from Dhaka Residential Model College with GPA 5.00 and SSC form Dhaka Residential Model College with GPA 5.00</p>
         </div>
       </div>
 
@@ -83,7 +83,6 @@ const HomeSection = () => (
         </div>
       </div>
     </div> 
-
 );
 
 export default HomeSection;

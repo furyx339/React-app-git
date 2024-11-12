@@ -1,4 +1,3 @@
-// MainPage.js
 import React, { useState } from 'react';
 import HomeSection from './HomeSection';
 import ProjectSection from './ProjectSection';
@@ -22,7 +21,7 @@ const MainPage = () => {
   };
 
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className="flex flex-col min-h-screen bg-gray-100">
       {/* Navbar */}
       <nav className="bg-blue-900 text-white py-4">
         <div className="container mx-auto flex justify-center">
@@ -35,7 +34,7 @@ const MainPage = () => {
       </nav>
 
       {/* Content */}
-      <div className="container mx-auto py-10 px-4">
+      <div className="container mx-auto py-10 px-4 flex-grow">
         {renderSection()}
       </div>
 
